@@ -1,0 +1,20 @@
+<mvc:View controllerName="digitalsign.controller.view1"
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns="sap.m"
+          xmlns:core="sap.ui.core">    
+          <Page id="idPage" title="{i18n>title}">
+                <VBox id="idVbox1">
+                    <core:HTML id="idHtml"/>
+                </VBox>
+                <VBox id="idVbox2">
+                    <items>
+                        <HBox id="idHbox1">
+                            <Button id="idBtn1" text="Signature" press="onSign"/>
+                            <Button id="idBtn2" text="Clear" press="onClear"/>
+                            <Button id="idBtn3" text="Save" press="onSave"/>
+                        </HBox>
+                    </items>
+                </VBox>
+          </Page>
+</mvc:View>          
+          
